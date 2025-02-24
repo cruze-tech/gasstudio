@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Personal Studio | Portfolio & Development</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #1A1A1A;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Sticky Nav */
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(26, 26, 26, 0.9);
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            z-index: 10;
+        }
+        nav a {
+            color: #00FFEA;
+            text-decoration: none;
+            font-family: 'Orbitron', sans-serif;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #FF007A;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #1A1A1A, #0F1419);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('assets/pad.jpg') center/cover;
+            opacity: 0.2;
+            z-index: 0;
+        }
+        .hero h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 4rem;
+            text-shadow: 0 0 10px #00FFEA;
+            z-index: 1;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            z-index: 1;
+        }
+        .hero img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 3px solid #00FFEA;
+            margin-top: 1rem;
+            z-index: 1;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 4rem 2rem;
+            background: #0F1419;
+            text-align: center;
+        }
+        .services h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.5rem;
+            color: #00FFEA;
+            margin-bottom: 2rem;
+        }
+        .services p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 4rem 2rem;
+            background: #1A1A1A;
+            text-align: center;
+        }
+        .contact h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.5rem;
+            color: #FF007A;
+            margin-bottom: 2rem;
+        }
+        .contact p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        .contact a {
+            color: #00FFEA;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .contact a:hover {
+            color: #FF007A;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <h1>Gas Personal Studio</h1>
+        <!-- <p>gasstudio.com.tw</p> -->
+        <img src="assets/gas.jpg" alt="Gas Profile Picture">
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>服務項目 Services</h2>
+        <p>Gas個人工作室 | GasPersonalStudio</p>
+        <p>Unity前端：Windows/行動裝置/WebGL上的遊戲或應用程式開發</p>
+        <p>Unity Front-End – Game/Apps Development on Windows/Mobiles/WebGL</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>聯絡資訊 Contact Information</h2>
+        <p>行動裝置 Mobile: (+886)910426064</p>
+        <p>E-mail: <a href="mailto:godafterseven@gmail.com">godafterseven@gmail.com</a></p>
+        <p>Line ID: godafterseven</p>
+    </section>
+</body>
+</html>
