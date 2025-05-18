@@ -1,0 +1,60 @@
+# Genesis Studio
+```
+Genesis Studios is an app development studio based in Kampala, Uganda
+We are committed to developing various interactive applications and games, etc.
+```
+```
+[Services provided]
+
+Business Management Application
+Commuter registration/personnel management/warehouse management/order distribution/data analysis
+
+Commercial Sales Application
+Product sales/membership functions/discount codes/activity push
+
+Game Development
+Rapid development of various mobile mini games to provide new fun for your activities or anniversaries
+
+Is there a project you want to try?
+Welcome to [Contact Us] to ask for more details and quotation
+```
+```
+[Product List]
+JuicyChickenApp
+Project is under preparation. Please stay tuned.
+```
+```
+[Product List]
+JuicyChickenApp
+Project is under preparation. Please stay tuned.
+
+[Career]
+Our goal is to provide users with digital services including life and business applications.
+As a newly established studio, we are eager for new blood to join us.
+
+Unity front-end development engineer
+1. Familiar with Unity 2D GUI/3D environment
+2. Ability to collaborate with back-end engineers to connect data
+3. Understand human-computer interaction and UI, UX design
+4. Unity animation recording
+
+Back-end development engineer
+1. Backend server installation and management
+2. Database management
+3. Provide API Gateway for front-end data connection
+4. Cloud program computing and management
+
+Graphic artist
+1. Graphic design skills
+2. Familiar with the use of art software (such as Adobe Illustrator)
+3. Understand the use of digital drawing tablets
+4. Draw interface materials for the application and output
+
+Are you interested in the above careers? Welcome to [Contact Us]!
+```
+```
+[Contact Us]
+WhatsApp: +256705990511
+Address: APPARTMENT
+14 BLOCK 246 PLOT 1717 AT kyandondo at KYEITABYA , Kampala, Uganda
+```
